@@ -15,9 +15,12 @@
       height: 8vh;
       margin:1rem;
       padding: 2rem;
-      margin-left: 19rem;
+      margin-left: 22rem;
       margin-top: 20px;
-      border: 0.2px solid black;
+      border: 0.4px solid black;
+      border-radius: 0.5rem;
+      font-family: merriweather;
+      font-size: 1.3rem;
 
 
     }
@@ -28,7 +31,10 @@
       width: 46%;
       margin:1rem;
       padding: 1rem;
-      margin-left: 19rem;
+      margin-left: 22rem;
+      border-radius: 0.5rem;
+      font-family: merriweather;
+      font-size: 1.5rem;
      }
      body{
        /* margin-left: 15px;
@@ -44,16 +50,17 @@
        height: 50px;
        width: 230px;
        background-color: #ffa500 ;
-       margin-left: 19rem;
+       margin-left: 22rem;
        padding-top: 1rem;
        padding-bottom: 1rem;
        border: none;
        font-weight: bold;
+       border-radius: 0.1rem;
 
      }
     #banana-talk{
       height: 8vh; 
-      width: 100%;
+      /* width: 99%; */
       background-color: #ffa500;
       text-align: center;
       border: 1px solid  black;
@@ -61,19 +68,29 @@
       font-family: Merriweather;
 
     }
-    #about{
+    /* #about{
       border: 1px solid black;
       height: 24vh;
       width: 100%;
       background-color:#ffa500 ;
 
-    }
+    } */
     h3{
        text-align: center;
     }
      p{
      text-align: center;
     }
+
+    #about{
+      border:1px solid black;
+      width: 45rem;
+      height: 5rem;
+      margin-left: 17rem;
+      padding: 2rem;
+      border-radius: 1rem;
+    }
+
     
     </style>
     <title>banana talk</title>
@@ -82,12 +99,17 @@
     <div id="banana-talk" style="font-size: 2rem; padding: 1rem;">
     Banana talk
     </div>
+    <br> 
+
+    <div id="about"> 
+      Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
+    </div>
     
     <textarea id="txt-input" placeholder="put your message here which you want to convert to banana language"></textarea>
 
     <button id="btn">Translate to banana</button> <br> <br>
 
-    <div style="font-size:large; margin-left: 19rem;"> Output will come here 👇  </div>
+    <div style="font-size:1.5rem; margin-left: 22rem;"> Output will come here 👇  </div>
     <div id="output"></div>
     <!-- <div id="about">
       <h3>about</h3>
